@@ -1,0 +1,25 @@
+[user]
+	name = yaboichrissyb
+	email = christopher.bunkers@gmail.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = always
+[push]
+	default = matching
+[diff]
+	algorithm = patience
+	guitool = atom
+[core]
+	excludesfile = ~/.gitignore-global
+	editor = atom
+[merge]
+	tool = atom
+[commit]
+	template = ~/.gitmessage
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[include]
+	path = ~/.gitconfig-local

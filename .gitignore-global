@@ -1,0 +1,9 @@
+.DS_Store
+*~
+.*.sw*
+*.un~
+Session.vim
+.netrwhist
+.LSOverride
+.sass-cache
+.idea
